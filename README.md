@@ -1,4 +1,4 @@
 # RottenTomatoes
 Working with APIs
 
-![alt tag](https://raw.github.com/adeysalyards/rottentomatoes/master/images/RottenTomatoes.gif)
+![alt tag](https://github.com/adeysalyards/RottenTomatoes/blob/master/RottenTomatoes.gif)
