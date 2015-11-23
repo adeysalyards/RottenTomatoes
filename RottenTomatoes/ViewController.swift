@@ -45,11 +45,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let movie = movies[indexPath.row]
         
-        let blueVariable = Int(indexPath.row)
+        let blueVariable = CGFloat(indexPath.row * 13)
         
-        //let posterColor = UIColor(red: 248/255, green: 204/255, blue: blueVariable/255, alpha: 1)
+        print(blueVariable)
         
-        //cell.posterImageView.backgroundColor = posterColor
+        let posterColor = UIColor(red: 248/255, green: 204/255, blue: blueVariable/255, alpha: 1)
+        
+        cell.posterImageView.backgroundColor = posterColor
             
         cell.titleLabel.text = movie["title"] as? String
         cell.synopsisLabel.text = movie["synopsis"] as? String
